@@ -21,11 +21,16 @@ This graph has valid ordering of \[1,2,3,4,5\]  or \[1,3,2,4,5\]
 To produce a topological ordering for this directed graph we have to find the nodes with an [[notes/Degree#Indegree]] of zero. Nodes with an indegree of zero come first.
 
 ![topsort_ex2](files/TopologicalSort/topSort_ex2.png)
+
 ![topsort_ex2_1](files/TopologicalSort/topSort_ex2_1.png)
 
+
 ![topsort_ex2_2](files/TopologicalSort/topSort_ex2_2.png)
+
 ![topsort_ex2_3](files/TopologicalSort/topSort_ex2_3.png)
+
 ![topsort_ex2_4](files/TopologicalSort/topSort_ex2_4.png)
+
 ![topsort_ex2_5](files/TopologicalSort/topSort_ex2_5.png)
 
 

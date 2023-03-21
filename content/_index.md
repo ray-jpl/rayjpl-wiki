@@ -16,6 +16,7 @@ To navigate between topics just click on the links below or just any node on the
 
 ## Contents
 - [[notes/Obsidian Notes]]
+- [[notes/Kafka]]
 
 ## Algorithms
 - [[notes/Topological Sort]]
