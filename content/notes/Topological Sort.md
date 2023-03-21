@@ -11,22 +11,24 @@ The topological sort algorithm takes a directed graph and returns an array of th
 
 ### Example 1
 
-![[files/Topological sort/topSort_ex1.png]]
+![topsort_ex1](files/TopologicalSort/topSort_ex1.png)
 
-![[files/Topological sort/topSort_ex1_ordered.png]]
+![topsort_ex1_ordered}](files/TopologicalSort/topSort_ex1_ordered.png)
 Graphs can have more than one valid topological ordering.
 This graph has valid ordering of \[1,2,3,4,5\]  or \[1,3,2,4,5\]
 
 ## Algorithm
 To produce a topological ordering for this directed graph we have to find the nodes with an [[notes/Degree#Indegree]] of zero. Nodes with an indegree of zero come first.
 
-![[files/Topological sort/topSort_ex2.png]]
+![topsort_ex2](files/TopologicalSort/topSort_ex2.png)
+![topsort_ex2_1](files/TopologicalSort/topSort_ex2_1.png)
 
-![[files/Topological sort/topSort_ex2_1.png]]
-![[files/Topological sort/topSort_ex2_2.png]]
-![[files/Topological sort/topSort_ex2_3.png]]
-![[files/Topological sort/topSort_ex2_4.png]]
-![[files/Topological sort/topSort_ex2_5.png]]
+![topsort_ex2_2](files/TopologicalSort/topSort_ex2_2.png)
+![topsort_ex2_3](files/TopologicalSort/topSort_ex2_3.png)
+![topsort_ex2_4](files/TopologicalSort/topSort_ex2_4.png)
+![topsort_ex2_5](files/TopologicalSort/topSort_ex2_5.png)
+
+
 ## Implementation
 1. Identify a node with no incoming edges.
 2. Add that node to the ordering.
@@ -35,7 +37,7 @@ To produce a topological ordering for this directed graph we have to find the no
 
 
 Topological Sort can be useful to find cycles in directed graphs as if a cycle exists there will always be a node with at least one incoming edge. 
-![[files/Topological sort/graphCycle.png]]
+![cycle](files/TopologicalSort/graphCycle.png)
 
 ### Example
 [Leetcode 207 - Course Schedule](https://leetcode.com/problems/course-schedule/) 

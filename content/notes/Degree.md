@@ -17,7 +17,7 @@ For directed graphs, node can have an **indegree** and an **outdegree** which co
 
 ### Indegree 
 - The number of incoming edges
-![[files/algorithm/graphDegreeDirected.png]]
+![[files/algorithm/graphDegreeDirected.png]] ^fb4996
 
 ### Outdegree
 - The number of outgoing edges
