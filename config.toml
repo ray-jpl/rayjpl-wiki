@@ -1,4 +1,4 @@
-baseURL = "https://ray-jpl.github.io/quartz/"
+baseURL = "https://ray-jpl.github.io/quartz-wiki/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true
