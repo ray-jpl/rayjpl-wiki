@@ -5,7 +5,7 @@ tags:
 - Binary Tree
 ---
 
-Level Order Traversal is essentially storing the nodes of each level/depth of the binary tree.
+Level Order Traversal is essentially storing the nodes of each level/depth of the [[notes/Binary Tree]].
 
 This can be performed iteratively using a Queue datastructure.
 The general idea is to populate the queue with the nodes of the current level.

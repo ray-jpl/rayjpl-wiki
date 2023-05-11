@@ -3,6 +3,7 @@ title: "Binary Search Tree - In-Order Traversal"
 enableToc: true
 tags:
 - Binary Search Tree
+- Binary Tree
 ---
 
 Inorder search for a [[notes/Binary Search Tree]] searches nodes from lowest to highest.
