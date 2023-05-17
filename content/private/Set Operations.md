@@ -45,4 +45,4 @@ $$(A \cap B) \cup C = (A \cup C) \cap (B \cup C)$$
 ## De Morgan's Laws
 $$(A \cap B)^c = A^c \cup B^c$$
 $$(A \cup B)^c = A^c \cap B^c$$
-## References
+

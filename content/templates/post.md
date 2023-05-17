@@ -4,5 +4,3 @@ enableToc: true
 tags:
 - 
 ---
-
-## References

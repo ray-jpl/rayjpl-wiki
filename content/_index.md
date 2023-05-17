@@ -18,7 +18,6 @@ To navigate between topics just click on the links below or just any node on the
 - [[notes/Obsidian Notes]]
 - [[notes/Kafka]]
 - [[notes/LDAP]]
-- [[]]
 
 ## Data Structures & Algorithms
 - [[notes/Topological Sort]]
