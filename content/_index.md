@@ -18,6 +18,7 @@ To navigate between topics just click on the links below or just any node on the
 - [[notes/Obsidian Notes]]
 - [[notes/Kafka]]
 - [[notes/LDAP]]
+- [[notes/Continuous Integration and Continuous Delivery (CICD)|Continuous Integration and Continuous Delivery (CICD)]]
 
 ## Data Structures & Algorithms
 - [[notes/Topological Sort]]

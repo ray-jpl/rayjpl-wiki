@@ -10,3 +10,5 @@ tags:
 Some basic distributions that might be useful
 - [[private/Bernoulli Distribution|Bernoulli Distribution]]
 - [[private/Binomial Distribution|Binomial Distribution]]
+- [[private/Poisson Distribution|Poisson Distribution]]
+
