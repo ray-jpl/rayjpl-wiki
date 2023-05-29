@@ -28,9 +28,9 @@ Common deployment approaches are:
 ![[files/cicd.png]]
 ## Continuous Testing
 Continuous testing is a practice where tests are automatically run during the CI/CD process in order to ensure that the application is still working as expected. 
-- **[[notes/Unit Testing|Unit Testing]]**, which checks that individual units of code work as expexted.
-- **Integration testing**, which verifies how different modules or services within an application work together
-- **Regression testing**, Which is performed after a bug is fixed to ensure that specific bug wont occur again
+- [[notes/Unit Testing|Unit Testing]], which checks that individual units of code work as expexted.
+- [[notes/Integration Testing|Integration Testing]], which verifies how different modules or services within an application work together
+- [[notes/Regression Testing|Regression Testing]], which is performed after a bug is fixed to ensure that specific bug wont occur again
 
 ## References
 - https://about.gitlab.com/topics/ci-cd/

@@ -6,6 +6,7 @@ tags:
 - Conditional Probability
 ---
 ## Conditional Probability
+#### Bayes Theorem
 >[!note] Definition
 >Conditional Probability is defined as the following
 >$$\begin{eqnarray}
@@ -14,6 +15,8 @@ tags:
 >\end{eqnarray}$$
 >We call $A|B$, "A given B". Given that the event B will occur, what is the probvability that $A$ will occur.
 >The reason we divide by the probability of $B$ is because if $B$ has occured then it is the new sample space
+
+^3a2d3a
 
 Visit [[private/Set Operations|Set Operations]] if you need a refresher.
 

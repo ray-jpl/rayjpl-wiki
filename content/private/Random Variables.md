@@ -38,7 +38,7 @@ where $p_i$ is the probability of the outcome $i$ occuring, and $x_i$ is the val
 >Find the expected value of the profit you make when you sell tomorrow.
 
 **Solution**
-We define X as the profit we make whhen we sell. We know $x_1 = 70, x_2 = -40$ and $x_3 = -10$. We also know $p_1 = 0.5, p_2 = 0.3$ and $p_3 = 0.2$. Therefore
+We define X as the profit we make when we sell. We know $x_1 = 70, x_2 = -40$ and $x_3 = -10$. We also know $p_1 = 0.5, p_2 = 0.3$ and $p_3 = 0.2$. Therefore
 $$\begin{eqnarray}  
 E(X) &=& \sum_{i}^{3}p_ix_i\\  
 &=& (0.5\times70) + (0.3\times-40)+(0.2\times-10)\\

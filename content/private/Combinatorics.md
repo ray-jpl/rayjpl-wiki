@@ -1,12 +1,11 @@
 ---
-title: "Combinatronics"
+title: "Combinatorics"
 enableToc: true
 tags:
-- Combinatronics
+- Combinatroics
 - Factorials
-- 
 ---
-## Combinatronics
+## Combinatorics
 #### Selection with repeats
 >[!note] Definition
 > When we count something with repeats, we use the simple formula
@@ -35,7 +34,7 @@ $$10\times 9\times8\times...\times3\times2\times1=10!$$
 #### Permutations
 >[!note] Definiton
 >A permutation is the name given to the case where we have to select items where 
->- We select without replacement 
+>- We select **without replacement** 
 >- Order **does** matter 
 >
 >The formula is:
