@@ -331,3 +331,20 @@ Therefore the total probability is $$\frac{2^{n-1}}{2^n-1}$$ ![[files/Pasted ima
 >A drawer contains 2 red socks and 2 black socks. If you pull out two socks at random, what is the probability that they match.
 
 The colour of the first sock does not matter here we just need the colour of the second sock to match. After pulling the first sock only one of the remaining 3 will match. Therefore the probability is $1/3$.
+
+>[!question] Question 3.21
+>I draw two cards from an ordinary deck with replacement, what is the probability that they are both aces? Without replacement?
+
+The probability with replacement would be 
+$$\frac{4}{52}\times\frac{4}{52}=\frac{1}{169}$$
+The probability without replacement would be 
+$$\frac{4}{52}\times\frac{3}{51}=\frac{1}{221}$$
+
+>[!question] Question 3.22
+>Suppose we have an ant travelling on edges of a cube, going from one vertex to another. The any never stops and it takes him one minute to go along one edge. At every vertex, the ant randomly picks one of the three available edges and starts going along that edge. We pick a vertex of the cube and put the ant there. What is the expected number of minutes that it will take the ant to return to that same vertex.
+
+
+
+>[!question] Question 3.23
+>You have been captured and blindfolded by pirates, then placed somewhere on a five meter long wooden plank. Disoriented, each step you take is a meter long but in a random direction - either towards the sharks at one end or eventual freedom at the other. if $x$ (integer) is the distance in meters you start from the safe end, determine the probability of your survival as a function of $x$.
+
