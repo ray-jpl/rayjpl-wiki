@@ -3,6 +3,7 @@ title: "Binary Tree - Level Order Traversal"
 enableToc: true
 tags:
 - Binary Tree
+- LeetCode
 ---
 
 Level Order Traversal is essentially storing the nodes of each level/depth of the [[notes/Binary Tree]].

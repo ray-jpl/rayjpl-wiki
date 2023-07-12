@@ -4,6 +4,7 @@ enableToc: true
 tags:
 - Binary Search Tree
 - Binary Tree
+- LeetCode
 ---
 
 Inorder search for a [[notes/Binary Search Tree]] searches nodes from lowest to highest.
