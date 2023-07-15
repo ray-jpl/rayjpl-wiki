@@ -15,7 +15,7 @@ Given that the current node is the smallest then we must traverse through its ri
 
 
 ## Example
-[Leetcode 94 - Binary Tree Inorder Traversal] 
+[LeetCode 94 - Binary Tree Inorder Traversal] 
 ```java {title=Leetcode 94}
 /**
  * Definition for a binary tree node.
