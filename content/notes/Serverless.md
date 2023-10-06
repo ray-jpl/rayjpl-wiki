@@ -13,8 +13,6 @@ Serverless applications can also save time for developers as they do not need to
 Serverless providers often offer Function as a Service platforms (FaaS) which often charge by compute time. 
 
 One of the drawbacks for serverless applications are cold starts. The concept of serverless involves not allocating resources when they're not needed and therefore when a function has not been called in a while the provider will shut down the function to save resources. The next call for that function will require the provider to start a server and begin hosting that function again which adds significant latency.
-
-
 #### Serverless Products
 - Cloudflare Workers
 - AWS Lambda

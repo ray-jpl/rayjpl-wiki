@@ -42,7 +42,7 @@ For search engines
 - Image alt-text
 - Open graph and twitter cards metadata
 
-#### Off-site optimisation
+#### Off-site Optimisation
 These may not be considered to be strictly SEO in the conventional sense
 
 - Link Building

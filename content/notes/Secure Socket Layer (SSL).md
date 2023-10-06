@@ -1,10 +1,12 @@
 ---
-title: "SSL"
+title: SSL
 enableToc: true
 tags:
-- SSL
-- SSL Certificate
-- TLS
+  - SSL
+  - SSL
+  - Certificate
+  - TLS
+  - Networking
 ---
 ### What is SSL?
 Secure Socket Layer (SSL) is an encryption-based security protocol. It is the predecessor to [[notes/Transport Layer Security (TLS)|TLS]]. 

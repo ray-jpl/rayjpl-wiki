@@ -1,8 +1,10 @@
 ---
-title: "TLS"
+title: TLS
 enableToc: true
 tags:
-- TLS
+  - TLS
+  - SSL
+  - Networking
 ---
 ## What is TLS
 TLS evolved from [[notes/Secure Socket Layer (SSL)|SSL]] and changed it name however people still use the terms interchangeably. Functionally they serve the same purpose which is to encrypt web requests.
