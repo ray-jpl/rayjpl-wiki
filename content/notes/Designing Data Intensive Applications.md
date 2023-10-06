@@ -1,8 +1,6 @@
 ---
 title: "Designing Data Intensive Applications"
 enableToc: true
-tags:
-- 
 ---
 These are just notes I've taken on the book "Designing Data Intensive Applications  - Martin Kleppmann"
 ## Main Concerns
