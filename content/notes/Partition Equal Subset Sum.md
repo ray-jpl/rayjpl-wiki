@@ -190,11 +190,8 @@ for (int i = 1; i < nums.length + 1; i++) {
 
 If we step through with $nums[i] = 2$, once we get to $\text{curSum}=4$ we realise that 
 
-$$\begin{eqnarray}
-dp[\text{curSum}-nums[i-1]] &=& dp[4-2]\\ 
-&=& dp[2]\\
-&=& True
-\end{eqnarray}$$
+$$\begin{aligned} dp[\text{curSum}-nums[i-1]] &= dp[4-2]\\ &= dp[2]\\&= True \end{aligned}$$
+
 Which means $dp[4] = True$ which should not be correct.
 
 | ~ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
