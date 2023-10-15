@@ -78,12 +78,13 @@ If we wanted to solve the subproblem $LIS[5]$ what do we need to consider?
 
 We can write the following subproblem as:
 
-$$\begin{eqnarray}
-LIS[5] &=& 1 + max\{\;LIS[k] \;|\; k < 5,\;A[k]<A[5]\}\\
-&=& 1 + max\{\;LIS[0],\;LIS[1], \;LIS[4]\}\\
-&=& 1 + max\{1,1,2\}\\
-&=& 3
-\end{eqnarray}$$
+$$\begin{align}
+LIS[5] &=1 + max\{\;LIS[k] \;|\; k < 5,\;A[k]<A[5]\}\\
+&= 1 + max\{\;LIS[0],\;LIS[1], \;LIS[4]\}\\
+&= 1 + max\{1,1,2\}\\
+&= 3
+\end{align}$$
+
 
 It can be generalised for any index $n$ by swapping 5 for $n$
 
