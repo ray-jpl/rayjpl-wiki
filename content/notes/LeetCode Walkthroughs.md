@@ -1,8 +1,8 @@
 ---
-title: "LeetCode write ups"
+title: LeetCode Walkthroughs
 enableToc: true
 tags:
-- LeetCode
+  - LeetCode
 ---
 ## Summary
 A collection of problems that I wrote out to understand the problem clearly or used an algorithm that I thought I should try to remember. 
