@@ -19,12 +19,10 @@ To navigate between topics just click on the links below or just any node on the
 - [[notes/Kafka]]
 - [[notes/LDAP]]
 - [[notes/Serverless|Serverless]]
-#### Networking
+-  [[notes/Continuous Integration and Continuous Delivery (CICD)|Continuous Integration and Continuous Delivery (CICD)]]
+### Networking
 - [[notes/Transport Layer Security (TLS)|Transport Layer Security (TLS)]]
 - [[notes/Secure Socket Layer (SSL)|Secure Socket Layer (SSL)]]
-
-- [[notes/Continuous Integration and Continuous Delivery (CICD)|Continuous Integration and Continuous Delivery (CICD)]]
-
 ## Data Structures & Algorithms
 - [[notes/Topological Sort]]
 - [[notes/Dynamic Programming|Dynamic Programming]]
