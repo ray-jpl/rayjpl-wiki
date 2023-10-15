@@ -27,5 +27,6 @@ To navigate between topics just click on the links below or just any node on the
 
 ## Data Structures & Algorithms
 - [[notes/Topological Sort]]
+- [[notes/Dynamic Programming|Dynamic Programming]]
 - [[notes/Binary Tree]]
 - [[notes/LeetCode Walkthroughs|LeetCode Walkthroughs]]
