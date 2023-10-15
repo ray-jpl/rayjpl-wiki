@@ -66,6 +66,7 @@ For index 1 there are no incoming edges so the $LIS[1] = 1$
 For index 3 there is one incoming edge so the $LIS[3] = 2$
 
 Therefore for $LIS[4]$
+
 $$LIS[4] = 1 + max\{LIS[0], LIS[1],LIS[3]\} = 3$$
 
 **Generalise the relationship**
@@ -76,13 +77,16 @@ If we wanted to solve the subproblem $LIS[5]$ what do we need to consider?
 - Additionally to be an increasing subsequence, a valid index $k$ must also contain a value smaller than the current index. So $A[k] < A[5]$
 
 We can write the following subproblem as:
+
 $$\begin{eqnarray}
 LIS[5] &=& 1 + max\{\;LIS[k] \;|\; k < 5,\;A[k]<A[5]\}\\
 &=& 1 + max\{\;LIS[0],\;LIS[1], \;LIS[4]\}\\
 &=& 1 + max\{1,1,2\}\\
 &=& 3
 \end{eqnarray}$$
+
 It can be generalised for any index $n$ by swapping 5 for $n$
+
 $$LIS[n] = 1 + max\{\;LIS[k] \;|\; k < 5,\;A[k]<A[n]\}$$
 
 #### Implementation
