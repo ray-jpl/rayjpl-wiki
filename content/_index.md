@@ -20,6 +20,7 @@ To navigate between topics just click on the links below or just any node on the
 - [[notes/LDAP]]
 - [[notes/Serverless|Serverless]]
 -  [[notes/Continuous Integration and Continuous Delivery (CICD)|Continuous Integration and Continuous Delivery (CICD)]]
+- [[notes/Operating Systems|Operating Systems]]
 ### Networking
 - [[notes/Transport Layer Security (TLS)|Transport Layer Security (TLS)]]
 - [[notes/Secure Socket Layer (SSL)|Secure Socket Layer (SSL)]]
