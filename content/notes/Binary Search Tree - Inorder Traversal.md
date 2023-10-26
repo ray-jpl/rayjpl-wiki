@@ -12,8 +12,6 @@ Inorder search for a [[notes/Binary Search Tree]] searches nodes from lowest to 
 As Binary search trees are ordered in a way that all nodes in the left subtree contain a lower value than the current node. We can use this property and traverse to the leftmost node in the tree which will be the beginning of our search.
 
 Given that the current node is the smallest then we must traverse through its right subtree in order to find the next larger nodes. Once the right subtree is exhausted we go up a level/depth and repeat.
-
-
 ## Example
 [LeetCode 94 - Binary Tree Inorder Traversal] 
 ```java {title=Leetcode 94}
@@ -85,5 +83,3 @@ Both solutions have to iterate over every node in the tree and therefore there i
 For the iterative solution the Stack is the only data structure and it has a space complexity of O(H) where H is the height of the tree. In the worst case has an O(N) space complexity where the entire tree is just leftnodes. 
 
 For the recursive case if you do not count the call stack then it has a space complexity of O(1), otherwise the space complexity is the same as the iterative solution. 
-
-## References

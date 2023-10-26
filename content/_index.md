@@ -9,7 +9,7 @@ This is my personal notes/wiki website. Learning new things is something that I 
 
 This wiki will contain notes on Computer Science/Software Engineering concepts and anything else I'm learning about. These are my [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes) so I hope to be constantly growing this database over time. 
 
-If youre interested in learning more about Obsidian or how I set this website up just visit [[notes/Obsidian Notes]].
+If you're interested in learning more about Obsidian or how I set this website up just visit [[notes/Obsidian Notes]].
 
 
 To navigate between topics just click on the links below or just any node on the graph.
@@ -27,5 +27,5 @@ To navigate between topics just click on the links below or just any node on the
 ## Data Structures & Algorithms
 - [[notes/Topological Sort]]
 - [[notes/Dynamic Programming|Dynamic Programming]]
-- [[notes/Binary Tree]]
+- [[notes/Tree (Graph Theory)]]
 - [[notes/LeetCode Walkthroughs|LeetCode Walkthroughs]]

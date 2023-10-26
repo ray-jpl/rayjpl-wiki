@@ -1,12 +1,13 @@
 ---
-title: "Binary Tree - Level Order Traversal"
+title: Binary Tree - Level Order Traversal
 enableToc: true
 tags:
-- Binary Tree
-- LeetCode
+  - Tree
+  - LeetCode
+  - BST
 ---
 
-Level Order Traversal is essentially storing the nodes of each level/depth of the [[notes/Binary Tree]].
+Level Order Traversal is essentially storing the nodes of each level/depth of the [[notes/Tree (Graph Theory)]].
 
 This can be performed iteratively using a Queue datastructure.
 The general idea is to populate the queue with the nodes of the current level.
