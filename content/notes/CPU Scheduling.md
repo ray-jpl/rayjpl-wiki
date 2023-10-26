@@ -80,9 +80,16 @@ The MLFQ has a number of distinct queues, each assigned a different priority lev
 - **Rule 1:** If Priority(A) > Priority(B), A runs (B doesn’t). 
 - **Rule 2:** If Priority(A) = Priority(B), A & B run in RR.
 
-The key to MLFQ scheduling therefore lies in how the scheduler sets priorities. Rather than giving a fixed priority to each job, MLFQ varies the priority of a job based on its observed behavior. 
+The key to MLFQ scheduling therefore lies in how the scheduler sets priorities. Rather than giving a fixed priority to each job, MLFQ varies the priority of a job based on its observed behaviour. 
 - If a job repeatedly relinquishes the CPU while waiting for input from the keyboard, MLFQ will keep its priority high, as this is how an interactive process might behave. 
 - If a job uses the CPU intensively for long periods of time, MLFQ will reduce its priority.
 
+The problem with just these rules is if the CPU continuously receives interactive processes then they will monopolise CPU time and thus long running jobs will never receive any CPU time. 
+To solve this we may just set all incomplete jobs to the highest priority after some time period $S$. If it is set too high, long-running jobs could starve; too low, and interactive jobs may not get a proper share of the CPU.
+
+Another issue is that CPU time can be gamed by issuing an I/O operation right before the allotment time is used up to retain the priority. To solve this the scheduler needs to refine the previous rule:
+- Once a job uses up its time allotment at a given level (regardless of how many times it has given up the CPU), its priority is reduced (i.e., it moves down one queue).
+
 ## References
 - [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+	- (Havent included Chapter 9 or 10 yet)
