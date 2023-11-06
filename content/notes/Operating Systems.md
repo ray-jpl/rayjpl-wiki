@@ -67,6 +67,7 @@ To allow users to tell the OS what to do, the OS provides some interfaces (APIs)
 ### Context Switching
 - During a Context Switch, one process is switched out of the CPU so another process can run
 - Operating System stores the state of the current running process so the process can resume execution at another point.
+- [[notes/CPU Scheduling|CPU Scheduling]] determines what is being run next
 - Context Switching is **expensive**
 	- Saving and loading registers
 	- Switching memory pages 
