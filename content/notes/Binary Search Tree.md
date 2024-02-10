@@ -18,3 +18,6 @@ Often times you may need to traverse the entire BST to solve the problem so I ha
 	- [[notes/Binary Tree - Postorder Traversal|Binary Tree - Postorder Traversal]]
 - BFS
 	- [[notes/Binary Tree - Level Order Traversal|Binary Tree - Level Order Traversal]]
+
+## References
+- [Leetcode Discussion - Naresh Gupta](https://leetcode.com/discuss/study-guide/937307/Iterative-or-Recursive-or-DFS-and-BFS-Tree-Traversal-or-In-Pre-Post-and-LevelOrder-or-Views)
