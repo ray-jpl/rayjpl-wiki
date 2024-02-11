@@ -5,7 +5,7 @@ tags:
 ---
 # Cookies
 ## What are Cookies
-A cookie is data sent as a key=value pair  that a server sends to a users web browser. These cookies allow servers to store various **stateful** information on a users device/browser. These cookies may be sent with subsequent requests to the server to convey stateful information. 
+A cookie is data sent as a key=value pair  that a server sends to a users web browser. These cookies allow servers to store various **stateful** information on a users device/browser. These cookies are sent with **every** subsequent requests to the server to convey stateful information. All cookies that pass all restrictions (correct domain, path, expiry time etc) are sent with the request, this can make cookies vulnerable to attacks like [CSRF attacks](https://owasp.org/www-community/attacks/csrf).
 
 Cookies are now primarily used for three purposes:
 **User Sessions**

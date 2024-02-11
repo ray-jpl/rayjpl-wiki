@@ -15,17 +15,19 @@ If you're interested in learning more about Obsidian or how I set this website u
 To navigate between topics just click on the links below or just any node on the graph.
 
 ## Knowledge
-- [[notes/Obsidian Notes]]
-- [[notes/Kafka]]
-- [[notes/LDAP]]
+- [[notes/Obsidian Notes|Obsidian Notes]]
+- [[notes/Kafka|Kafka]]
+- [[notes/LDAP|LDAP]]
 - [[notes/Serverless|Serverless]]
--  [[notes/Continuous Integration and Continuous Delivery (CICD)|Continuous Integration and Continuous Delivery (CICD)]]
+- [[notes/Continuous Integration and Continuous Delivery (CICD)|Continuous Integration and Continuous Delivery (CICD)]]
 - [[notes/Operating Systems|Operating Systems]]
+- [[notes/System Design|System Design]]
+- [[notes/Proxy|Proxy]]
 ### Networking
 - [[notes/Transport Layer Security (TLS)|Transport Layer Security (TLS)]]
 - [[notes/Secure Socket Layer (SSL)|Secure Socket Layer (SSL)]]
 ## Data Structures & Algorithms
-- [[notes/Topological Sort]]
+- [[notes/Topological Sort|Topological Sort]]
 - [[notes/Dynamic Programming|Dynamic Programming]]
-- [[notes/Tree (Graph Theory)]]
+- [[notes/Tree (Graph Theory)| Tree (Graph Theory)]]
 - [[notes/LeetCode Walkthroughs|LeetCode Walkthroughs]]
