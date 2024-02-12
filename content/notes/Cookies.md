@@ -36,5 +36,5 @@ Using the URL or hidden HTML fields to store state  is unreliable as page naviga
 Cookies solved these problems. Cookies are sent in the HTTP protocol as a header. A user's state is also tracked by the browser instead of the web server. Originally, cookies were created to solve the problem of pending shopping carts in e-commerce. The company did not want its servers to store all partial transaction states. Cookies allowed the state of the shopping cart to be stored in the browser and then only when the order is submitted then the cart information cookie is submitted with the request.   
 # Resources
 - [HTTP Cookies - MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-- [HTTP Cookies: Standards, Privacy and Politics](https://arxiv.org/pdf/cs/0105018.pdf)
-- [What are cookies](https://www.cloudflare.com/learning/privacy/what-are-cookies/)
+- [HTTP Cookies: Standards, Privacy and Politics - David M. Kristol](https://arxiv.org/pdf/cs/0105018.pdf)
+- [What are cookies - Cloudflare](https://www.cloudflare.com/learning/privacy/what-are-cookies/)
