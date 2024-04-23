@@ -23,6 +23,7 @@ To navigate between topics just click on the links below or just any node on the
 - [[notes/Operating Systems|Operating Systems]]
 - [[notes/System Design|System Design]]
 - [[notes/Proxy|Proxy]]
+- [[notes/Computer Networks|Computer Networks]]
 ### Networking
 - [[notes/Transport Layer Security (TLS)|Transport Layer Security (TLS)]]
 - [[notes/Secure Socket Layer (SSL)|Secure Socket Layer (SSL)]]
